@@ -1,0 +1,9 @@
+To run program, simple run the command in terminal: 
+python3 covid_content_stats.py
+
+Be sure that both spike.fasta and fullgenome.fasta are in the same directory.
+Two additional files are also produced by this program: xvalues.txt and
+yvalues.txt. These files contain the data for the graph and are just separated
+so I could easily copy and paste the data into a google spreadsheet. With all
+the data in the google sheet, I simply produced a scatterplot based off this
+x and y data. 
